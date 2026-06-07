@@ -1,100 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18199436026"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-18199436026');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Official Website Redirect - iGenics Supplement</title>
+    <meta name="description" content="Honest TubeMagic Review 2026. Discover features, pricing, pros & cons, and see how this AI tool compares to VidIQ for YouTube creators.">
+    <meta name="keywords" content="TubeMagic Review, TubeMagic Reviews, TubeMagic Pricing, TubeMagic AI, TubeMagic Worth It, TubeMagic Alternative, YouTube AI Tool, YouTube Script Generator">
+    <title>TubeMagic Review 2026: Pricing, Features & Verdict</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-main: #c9d1d9;
+            --text-heading: #ffffff;
+            --accent-color: #2f81f7;
+            --accent-hover: #1f6feb;
+            --border-color: #30363d;
+            --success: #2ea043;
+            --warning: #d29922;
+        }
+
+        * {
             margin: 0;
-            padding: 20px;
+            padding: 0;
             box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
         }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            /* Extra padding at bottom to prevent content from hiding behind mobile sticky CTA */
+            padding-bottom: 0; 
+        }
+
         .container {
-            background: #ffffff;
-            padding: 40px 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header / Hero */
+        header {
             text-align: center;
-            max-width: 500px;
-            width: 100%;
+            padding: 80px 0 40px;
+            border-bottom: 1px solid var(--border-color);
         }
-        .security-badge {
-            color: #2e7d32;
-            font-size: 14px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 15px;
-            display: inline-block;
-            background: #e8f5e9;
-            padding: 6px 16px;
-            border-radius: 50px;
-        }
+
         h1 {
-            font-size: 24px;
-            margin: 10px 0 20px 0;
-            color: #1a1a1a;
+            color: var(--text-heading);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
         }
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-            color: #666;
+
+        h2 {
+            color: var(--text-heading);
+            font-size: 1.8rem;
+            margin: 40px 0 20px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: var(--text-heading);
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #8b949e;
             margin-bottom: 30px;
         }
-        .btn {
+
+        /* Buttons */
+        .cta-button {
             display: inline-block;
-            background-color: #0066cc;
+            background-color: var(--accent-color);
             color: #ffffff;
+            padding: 15px 30px;
+            border-radius: 6px;
             text-decoration: none;
-            padding: 16px 32px;
-            font-size: 18px;
             font-weight: bold;
+            font-size: 1.1rem;
+            transition: background-color 0.2s ease;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .cta-button:hover {
+            background-color: var(--accent-hover);
+        }
+
+        /* Cards Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
             border-radius: 8px;
-            transition: background-color 0.2s;
-            box-shadow: 0 4px 6px rgba(0, 102, 204, 0.2);
+            padding: 25px;
         }
-        .btn:hover {
-            background-color: #0052a3;
+
+        /* Pros and Cons */
+        .pros-cons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
         }
-        .footer-notice {
-            margin-top: 30px;
-            font-size: 12px;
-            color: #999;
-            border-top: 1px solid #eeeeee;
-            padding-top: 20px;
+
+        .list-item {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .pro-icon { color: var(--success); font-weight: bold; }
+        .con-icon { color: var(--warning); font-weight: bold; }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #21262d;
+            color: var(--text-heading);
+        }
+
+        /* FAQ */
+        .faq-item {
+            margin-bottom: 20px;
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .faq-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        /* Verdict Box */
+        .verdict-box {
+            background-color: #1f2428;
+            border-left: 4px solid var(--accent-color);
+            padding: 25px;
+            margin: 40px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #8b949e;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 60px;
+        }
+
+        /* Sticky Mobile CTA - Hidden by default on desktop */
+        .mobile-sticky-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #0d1117;
+            padding: 15px;
+            border-top: 1px solid var(--border-color);
+            box-shadow: 0 -4px 10px rgba(0,0,0,0.5);
+            z-index: 1000;
+            text-align: center;
+        }
+
+        .mobile-sticky-cta .cta-button {
+            margin-top: 0;
+            width: 100%;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .cta-button { display: block; width: 100%; }
+            body { padding-bottom: 80px; } /* Room for sticky CTA */
+            .mobile-sticky-cta { display: block; } /* Show sticky CTA on mobile */
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="security-badge">✓ Secure Connection Verified</div>
-    <h1>You Are Being Directed to the Official iGenics Website</h1>
-    <p>To ensure you receive the authentic formula, retail discounts, and full money-back guarantee, click the secure link below to proceed to the official manufacturer's page.</p>
-    
-    <a href="https://clearvisionbreakthrough.com/tsl.php#aff=atlasaff" class="btn">Proceed to Official Website →</a>
+    <header>
+        <div class="container">
+            <h1>TubeMagic Review 2026</h1>
+            <p class="subtitle">AI Tool For YouTube Creators: Features, Pricing, Pros & Cons</p>
+            <a href="https://tubemagic.com/ds#aff=atlasaff" class="cta-button" target="_blank" rel="noopener noreferrer">Visit Official Website</a>
+        </div>
+    </header>
 
-    <div class="footer-notice">
-        <p style="margin: 0; font-size: 12px;">This landing page serves as a verification portal to prevent counterfeit access. You will be redirected to the official checkout page.</p>
+    <main class="container">
+        
+        <section id="what-is">
+            <h2>What Is TubeMagic?</h2>
+            <p>TubeMagic is an AI-powered platform designed to help YouTube creators generate ideas, write scripts, perform keyword research and optimize content for growth. Instead of using multiple tools, creators can manage much of their content planning workflow in a single platform.</p>
+            <a href="https://tubemagic.com/ds#aff=atlasaff" class="cta-button" target="_blank" rel="noopener noreferrer">See TubeMagic Features</a>
+        </section>
+
+        <section id="features">
+            <h2>Main Features</h2>
+            <div class="features-grid">
+                <div class="card">
+                    <h3>✍️ AI Script Writer</h3>
+                    <p>Stop writing robotic scripts. TubeMagic uses advanced AI models to generate highly engaging scripts tailored to your channel's unique style and tone.</p>
+                </div>
+                <div class="card">
+                    <h3>💡 Video Idea Generator</h3>
+                    <p>Never run out of content. The AI-powered platform analyzes your niche and suggests high-potential video topics to jumpstart your production.</p>
+                </div>
+                <div class="card">
+                    <h3>🔍 Keyword Research</h3>
+                    <p>Find the exact search terms your audience is looking for. Identify low-competition, high-search-volume keywords to give your videos a structural advantage.</p>
+                </div>
+                <div class="card">
+                    <h3>🚀 SEO Optimization</h3>
+                    <p>Automatically generate optimized Titles, Tags, and Descriptions designed to appeal to the YouTube algorithm and maximize your Click-Through Rate (CTR).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>TubeMagic Pricing</h2>
+            <div class="card" style="text-align: center; border-color: var(--accent-color);">
+                <h3 style="font-size: 2rem; margin-bottom: 5px;">Monthly Subscription</h3>
+                <p style="margin-bottom: 10px;">Access all premium AI features in one unified dashboard.</p>
+                <p style="font-size: 0.85rem; color: #8b949e; margin-bottom: 20px; font-style: italic;">Pricing and features may change over time. Visit the official website for the most up-to-date information.</p>
+                <a href="https://tubemagic.com/ds#aff=atlasaff" class="cta-button" target="_blank" rel="noopener noreferrer">See Current Pricing</a>
+            </div>
+        </section>
+
+        <section id="pros-cons">
+            <h2>Pros & Cons</h2>
+            <div class="pros-cons-grid">
+                <div class="card">
+                    <h3>Advantages</h3>
+                    <div class="list-item"><span class="pro-icon">✅</span> Built specifically for YouTube creators</div>
+                    <div class="list-item"><span class="pro-icon">✅</span> Generates ideas, scripts and SEO assets in one place</div>
+                    <div class="list-item"><span class="pro-icon">✅</span> Uses advanced AI technology</div>
+                    <div class="list-item"><span class="pro-icon">✅</span> Supports multiple languages</div>
+                    <div class="list-item"><span class="pro-icon">✅</span> Saves hours of planning and content preparation</div>
+                </div>
+                <div class="card">
+                    <h3>Things To Consider</h3>
+                    <div class="list-item"><span class="con-icon">⚠</span> Best suited for creators who publish regularly</div>
+                    <div class="list-item"><span class="con-icon">⚠</span> Full feature access requires a paid subscription</div>
+                    <div class="list-item"><span class="con-icon">⚠</span> Results depend on content quality and execution</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison">
+            <h2>TubeMagic vs VidIQ</h2>
+            <p style="margin-bottom: 20px;">While both tools are excellent for creators, they serve different primary purposes. Here is a neutral breakdown:</p>
+            <div style="overflow-x: auto;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature Focus</th>
+                            <th>TubeMagic</th>
+                            <th>VidIQ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Primary Strength</strong></td>
+                            <td>Content Creation & Scripting (Pre-production)</td>
+                            <td>Analytics & SEO Tracking (Post-production)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>AI Script Writing</strong></td>
+                            <td>Advanced AI-powered script generation</td>
+                            <td>Basic AI integrations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Competitor Tracking</strong></td>
+                            <td>Clones viral structures for inspiration</td>
+                            <td>Deep metric tracking & daily views analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Best For...</strong></td>
+                            <td>Automated channels & creators needing script help</td>
+                            <td>Data-driven creators optimizing existing content</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>Does TubeMagic offer a free trial?</h3>
+                <p>Availability may change over time. Check the official website for the latest offers and policies.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is TubeMagic beginner friendly?</h3>
+                <p>Yes. The platform is designed to simplify content creation for YouTube creators.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can TubeMagic help with YouTube SEO?</h3>
+                <p>Yes. It includes keyword research and optimization features.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is TubeMagic worth it?</h3>
+                <p>Many creators use TubeMagic to reduce the time spent on planning, scripting and content preparation.</p>
+            </div>
+        </section>
+
+        <section id="verdict">
+            <div class="verdict-box">
+                <h2>Final Verdict</h2>
+                <p>TubeMagic is a platform designed to help YouTube creators streamline content planning, scripting and optimization. For creators looking to save time and organize their workflow, it may be worth considering. Visit the official website to learn more about its current features and pricing.</p>
+                <br>
+                <a href="https://tubemagic.com/ds#aff=atlasaff" class="cta-button" style="width: 100%;" target="_blank" rel="noopener noreferrer">Visit Official Website</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Disclaimer: This page contains affiliate links. If you choose to purchase after clicking a link, we may receive a commission at no extra cost to you. We only recommend products we believe in.</p>
+            <p style="margin-top: 10px;">&copy; 2026 Atlas Affiliates. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="mobile-sticky-cta">
+        <a href="https://tubemagic.com/ds#aff=atlasaff" class="cta-button" target="_blank" rel="noopener noreferrer">Visit Official Website</a>
     </div>
-</div>
 
 </body>
 </html>
